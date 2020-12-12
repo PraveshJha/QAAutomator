@@ -1,0 +1,10 @@
+[
+  {
+    "ApplicationURL": "Add application URL",
+    "Environment": "QA"
+  },
+  {
+    "ApplicationURL": "Add application URL",
+    "Environment": "Production"
+  }
+]

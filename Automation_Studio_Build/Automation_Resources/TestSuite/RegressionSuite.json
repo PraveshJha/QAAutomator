@@ -1,0 +1,8 @@
+{
+  "EmailOption": "YES",
+  "FormEmailAddress": "Senderemail@test.com",
+  "FEmailPassword": "Testing",
+  "ReceiverEmailAddress": "RecieverEmailAddress@test.com",
+  "TestSuite": [
+  ]
+}
