@@ -1,10 +1,10 @@
 [
   {
-    "ApplicationURL": "Add application URL",
+    "ApplicationURL": "https://www.google.com/",
     "Environment": "QA"
   },
   {
-    "ApplicationURL": "Add application URL",
+    "ApplicationURL": "https://www.google.com/",
     "Environment": "Production"
   }
 ]

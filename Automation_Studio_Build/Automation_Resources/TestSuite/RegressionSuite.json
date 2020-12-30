@@ -4,5 +4,10 @@
   "FEmailPassword": "Testing",
   "ReceiverEmailAddress": "RecieverEmailAddress@test.com",
   "TestSuite": [
+    {
+      "Module": "TWST1",
+      "TestID": "TC01",
+      "TestCaseName": "THis is new Test"
+    }
   ]
 }
