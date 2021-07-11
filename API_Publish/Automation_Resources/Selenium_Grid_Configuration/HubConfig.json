@@ -1,0 +1,5 @@
+{
+"port":4444,
+  "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+  "role": "hub"
+}

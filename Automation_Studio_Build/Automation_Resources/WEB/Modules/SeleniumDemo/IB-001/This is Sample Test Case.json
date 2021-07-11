@@ -1,0 +1,58 @@
+[
+  {
+    "1": {
+      "teststepid": "1",
+      "stepdescription": "Launch application",
+      "action": "LaunchApplication",
+      "locator": "",
+      "locatorproperty": "",
+      "value": "c.ApplicationURL",
+      "exitIfFail": "Y"
+    },
+    "2": {
+      "teststepid": "2",
+      "stepdescription": "Click on Input Forms link",
+      "action": "Click",
+      "locator": "",
+      "locatorproperty": "OR.INPUTFORMS",
+      "value": "",
+      "exitIfFail": "Y"
+    },
+    "3": {
+      "teststepid": "3",
+      "stepdescription": "Click on Simple Form Demo link",
+      "action": "Click",
+      "locator": "",
+      "locatorproperty": "OR.SIMPLEFORMDEMO",
+      "value": "",
+      "exitIfFail": "Y"
+    },
+    "4": {
+      "teststepid": "4",
+      "stepdescription": "Enter message",
+      "action": "Type",
+      "locator": "",
+      "locatorproperty": "OR.MESSAGE",
+      "value": "t.MESSAGE",
+      "exitIfFail": "Y"
+    },
+    "5": {
+      "teststepid": "5",
+      "stepdescription": "Click on Show Message button",
+      "action": "Click",
+      "locator": "",
+      "locatorproperty": "OR.SHOWMESSAGE",
+      "value": "",
+      "exitIfFail": "Y"
+    },
+    "6": {
+      "teststepid": "6",
+      "stepdescription": "Verify Your Message section",
+      "action": "MatchElementText",
+      "locator": "",
+      "locatorproperty": "OR.YOURMESSAGE",
+      "value": "t.MESSAGE",
+      "exitIfFail": "Y"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "EXECUTIONSETUP": {
+    "DefaultEnvironment": "QA",
+    "DashboardHistoryCount": "25",
+    "DashboardTotalDayCount": "10"
+  },
+  "REPORTINGSETUP": {
+    "ReportingHeaderName": "QA Automator",
+    "HeaderColorCode": "#1E90FF",
+    "SubHeaderColorCode": "#E5E8E8"
+  },
+  "EMAILSETUP": {
+    "SenderEmail": "sendernew@test.com",
+    "SenderPassword": "Testing",
+    "ReceiverEmail": "Pravesh28@gmail.com"
+  },
+  "ENVIRONMENTSETUP": {
+    "QA": {
+      "airCallBaseURL": "https://api.aircall.io/v1"
+    }
+  },
+  "HTTPHEADER": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "User-Agent": "QAAutomator",
+    "Content-Type": "application/json",
+    "Authorization": "Basic ZGU3NmEzMDE1MWVmYjU0M2YxODYxYWVmYzU5M2NjZTM6YzE3ZTljZDQzMDgxMWI4ZGE3NjI1MDcwMzA0MzIzYWM="
+  }
+}

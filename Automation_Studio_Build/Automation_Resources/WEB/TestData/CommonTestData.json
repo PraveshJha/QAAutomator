@@ -1,0 +1,10 @@
+[
+  {
+    "ApplicationURL": "https://www.google.com/",
+    "Environment": "Production"
+  },
+  {
+    "ApplicationURL": "https://www.seleniumeasy.com/test/",
+    "Environment": "QA"
+  }
+]
