@@ -10,14 +10,15 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 (Reference: https://www.iis.net/downloads/microsoft/url-rewrite)
 4.	IIS option be enabled with given below configuration
 
-![image](https://user-images.githubusercontent.com/26107997/134213875-ce6640fe-6907-4fd5-aefd-b0a7bbaed41e.png)
+  ![image](https://user-images.githubusercontent.com/26107997/134213875-ce6640fe-6907-4fd5-aefd-b0a7bbaed41e.png)
 
 **Host QA Automator on IIS Step by Step:**
 
 1.	Download QAAutomator from github.
-2.	Create any folder on your device and place the downloaded folder inside it. Over here I created a folder (AutomationStudio) in My C drive and place the download folder inside it.
+2.	Create any folder on your device and place the downloaded folder inside it. Over here I created a folder (QAAutomator) in My C drive and place the download folder inside it.
 
-.![image](https://user-images.githubusercontent.com/26107997/134214151-5f3ce59b-8ce4-48c5-b82a-3984ddc4ccc2.png)
+  ![image](https://user-images.githubusercontent.com/26107997/134215688-3c3ac61c-8e83-4c04-92ea-55ad4f245f1e.png)
+  
 3.	Launch Web server for chrome.
 4.	Select Reports folder (C:\AutomationStudio\Automation_Studio_Build\Automation_Resources\Reports) from Web Server Chrome.
 
