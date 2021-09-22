@@ -1,4 +1,4 @@
-# QAAutomator  ![image](https://user-images.githubusercontent.com/26107997/134382657-b419a689-3bd2-4deb-8431-2f36e9615837.png)
+# QAAutomator  ![image](https://user-images.githubusercontent.com/26107997/134382933-6c94f352-dc36-4bd4-87fb-00b93d065fd6.png)
 
 QA Automator is complete testing solution for Web and API testing. It is codeless automation framework on cloud platform with artificial intelligence Support which reduce 90% business cost.
 
