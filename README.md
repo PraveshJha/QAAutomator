@@ -17,8 +17,8 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 1.	Download QAAutomator from github.
 2.	Create any folder on your device and place the downloaded folder inside it. Over here I created a folder (QAAutomator) in My C drive and place the download folder inside it.
 
-  ![image](https://user-images.githubusercontent.com/26107997/134215688-3c3ac61c-8e83-4c04-92ea-55ad4f245f1e.png)
-  
+  ![Uploading image.png…]()
+ 
 3.	Launch Web server for chrome.
 4.	Select Reports folder (C:\AutomationStudio\Automation_Studio_Build\Automation_Resources\Reports) from Web Server Chrome.
 
