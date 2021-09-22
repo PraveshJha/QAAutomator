@@ -17,7 +17,7 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 1.	Download QAAutomator from github.
 2.	Create any folder on your device and place the downloaded folder inside it. Over here I created a folder (QAAutomator) in My C drive and place the download folder inside it.
 
-  ![image](https://user-images.githubusercontent.com/26107997/134376908-c77b0431-d6df-450c-ad43-5951b18ca96a.png)
+    ![image](https://user-images.githubusercontent.com/26107997/134376908-c77b0431-d6df-450c-ad43-5951b18ca96a.png)
 
 3.	Launch Web server for chrome.
 4.	Select Path (C:\QAAutomator\API_QAAutomator\Automation_Resources) from 'Web Server Chrome' using choose Folder option
@@ -28,17 +28,22 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 6.	Open Web.config file from C:\QAAutomator\API_QAAutomator\.
 7.	Update ReportPublishURL key with value (Web server URL)
 
-  ![image](https://user-images.githubusercontent.com/26107997/134378990-edd26fef-ea23-495b-8cc8-10cc50507634.png)
+    ![image](https://user-images.githubusercontent.com/26107997/134378990-edd26fef-ea23-495b-8cc8-10cc50507634.png)
 
-8.	Add new Site in IIS (select any name automationstudioapi, port number 49957 and select set Physical path =C:\AutomationStudio\API_Publish
+8.	Add new Site in IIS (select any name QAAutomatorAPI, any port number 49658 and select set Physical path =C:\QAAutomator\API_QAAutomator
 
-![image](https://user-images.githubusercontent.com/26107997/134214498-dc889c4f-e600-43a4-885b-15b98745f095.png)
-9.	Note down API URI : (http://MachineIPAdrress:49957/)
-10.	Open ServerAddress.js file from C:\AutomationStudio\Automation_Studio_Build\build folder.
-![image](https://user-images.githubusercontent.com/26107997/134214599-532098bb-dbe4-4b99-be3a-a4fc253c4332.png)
-11.	Update APIURL : http://MachineIPAdrress:49957/api/  and ReportURL : IP (web server for chrome)
-12.	Add new site from IIS (sitename=Automationstudio,Physicalpath= C:\AutomationStudio\Automation_Studio_Build\build , Port Number =3001)
-![image](https://user-images.githubusercontent.com/26107997/134214665-2cbbf946-b79e-4063-93c8-dceab1f92c57.png)
+    ![image](https://user-images.githubusercontent.com/26107997/134380011-4a01d156-ce54-4d71-b1f7-fde8bb6f03d2.png)
+
+9.	Browse QAAutomatorAPI application and note down URL e.g. (http://MachineIPAdrress:49658/ or http://localhost:49658/)
+10.	Open ServerAddress.js file from C:\QAAutomator\Fronthand_QAAutomator\ folder.
+11.	Update APIURL (http://MachineIPAdrress:49658/api/ or http://localhost:49658/api/), base URL will be same as Step 9 URL.
+
+      ![image](https://user-images.githubusercontent.com/26107997/134380929-8b187120-8415-4ed9-8550-566642ea23ca.png)
+
+13.	Add new site from IIS (sitename=QAAutomator, Physicalpath= C:\QAAutomator\Fronthand_QAAutomator , Port Number =3001)
+    
+    ![image](https://user-images.githubusercontent.com/26107997/134381965-fb292614-0ad1-45e0-8a97-d6329782da10.png)
+
 13.	Browse your application using IP or local host 
 
 
