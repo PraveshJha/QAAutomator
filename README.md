@@ -17,19 +17,19 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 1.	Download QAAutomator from github.
 2.	Create any folder on your device and place the downloaded folder inside it. Over here I created a folder (QAAutomator) in My C drive and place the download folder inside it.
 
-  ![Uploading image.png…]()
- 
+  ![image](https://user-images.githubusercontent.com/26107997/134376908-c77b0431-d6df-450c-ad43-5951b18ca96a.png)
+
 3.	Launch Web server for chrome.
-4.	Select Reports folder (C:\AutomationStudio\Automation_Studio_Build\Automation_Resources\Reports) from Web Server Chrome.
+4.	Select Path (C:\QAAutomator\API_QAAutomator\Automation_Resources) from 'Web Server Chrome' using choose Folder option
 
-![image](https://user-images.githubusercontent.com/26107997/134214222-50e89e0c-f45b-472f-9032-85be216f8955.png)
+    ![image](https://user-images.githubusercontent.com/26107997/134378498-c2797655-6d3a-4dfb-a92c-1ccd6f539e09.png)
+
 5.	Note down Web Server URL (IP)
-6.	Open Web.config file from C:\AutomationStudio\API_Publish folder.
-
-![image](https://user-images.githubusercontent.com/26107997/134214301-85046501-6ccb-444c-9835-f57cdb7e60fc.png)
+6.	Open Web.config file from C:\QAAutomator\API_QAAutomator\.
 7.	Update ReportPublishURL key with value (Web server URL)
 
-![image](https://user-images.githubusercontent.com/26107997/134214375-25a2700d-6d32-4ed3-a451-11e2ed4c591a.png)
+  ![image](https://user-images.githubusercontent.com/26107997/134378990-edd26fef-ea23-495b-8cc8-10cc50507634.png)
+
 8.	Add new Site in IIS (select any name automationstudioapi, port number 49957 and select set Physical path =C:\AutomationStudio\API_Publish
 
 ![image](https://user-images.githubusercontent.com/26107997/134214498-dc889c4f-e600-43a4-885b-15b98745f095.png)
