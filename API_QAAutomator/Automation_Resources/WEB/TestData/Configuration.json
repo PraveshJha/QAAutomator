@@ -1,0 +1,14 @@
+{
+  "DefaultEnvironment": "QA",
+  "DefaultBrowser": "CHROME",
+  "DashboardHistoryCount": "50",
+  "DashboardTotalDayCount": "100",
+  "HUBMachineName": "DESKTOP-I3AQR17",
+  "HUBPort": "4445",
+  "ReportingHeaderName": "QA Automator",
+  "HeaderColorCode": "#1E90FF",
+  "SubHeaderColorCode": "#E5E8E8",
+  "SenderEmail": "sender@test.com",
+  "SenderPassword": "Testing",
+  "ReceiverEmail": "Pravesh28@gmail.com"
+}

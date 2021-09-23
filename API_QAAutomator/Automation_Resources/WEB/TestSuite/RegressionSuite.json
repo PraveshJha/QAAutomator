@@ -1,0 +1,28 @@
+{
+  "EmailOption": "YES",
+  "FormEmailAddress": "sender@test.com",
+  "FEmailPassword": "Testing",
+  "ReceiverEmailAddress": "Pravesh28@gmail.com",
+  "TestSuite": [
+    {
+      "Module": "SeleniumDemo",
+      "TestID": "IB-001",
+      "TestCaseName": "This is Sample Test Case"
+    },
+    {
+      "Module": "Module2",
+      "TestID": "TC01",
+      "TestCaseName": "Module 2 TC01"
+    },
+    {
+      "Module": "Module2",
+      "TestID": "TC02",
+      "TestCaseName": "TC02"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC01",
+      "TestCaseName": "Modile 01 TC03"
+    }
+  ]
+}

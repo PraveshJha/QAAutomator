@@ -1,0 +1,22 @@
+{
+  "EXECUTIONSETUP": {
+    "DefaultEnvironment": "",
+    "DashboardHistoryCount": "30",
+    "DashboardTotalDayCount": "30",
+    "ExecutionTimeGrpahIn": ""
+  },
+  "REPORTINGSETUP": {
+    "ReportingHeaderName": "QA Automator",
+    "HeaderColorCode": "#1E90FF",
+    "SubHeaderColorCode": "#E5E8E8"
+  },
+  "EMAILSETUP": {
+    "SenderEmail": "senderemail@test.com",
+    "SenderPassword": "Testing",
+    "ReceiverEmail": "recieveremail@test.com"
+  },
+  "ENVIRONMENTSETUP": {
+  },
+  "HTTPHEADER": {},
+  "Authorization": []
+}

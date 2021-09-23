@@ -1,0 +1,110 @@
+{
+  "INPUTFORMS": [
+    {
+      "Primary": {
+        "XPath": "//a[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'input forms')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'input forms')]"
+      }
+    }
+  ],
+  "AJAXFORMSUBMIT": [
+    {
+      "Primary": {
+        "XPath": "//a[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'ajax form submit')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'ajax form submit')]"
+      }
+    }
+  ],
+  "NAME": [
+    {
+      "Primary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'name')]/..//input"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'name')]/..//textarea"
+      }
+    }
+  ],
+  "COMMENT": [
+    {
+      "Primary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'comment')]/..//input"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'comment')]/..//textarea"
+      }
+    }
+  ],
+  "SUBMIT": [
+    {
+      "Primary": {
+        "XPath": "//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'submit')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//*[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'submit')]/input"
+      }
+    }
+  ],
+  "SIMPLEFORMDEMO": [
+    {
+      "Primary": {
+        "XPath": "//a[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'simple form demo')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'simple form demo')]"
+      }
+    }
+  ],
+  "MESSAGE": [
+    {
+      "Primary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'message')]/..//input"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'message')]/..//textarea"
+      }
+    }
+  ],
+  "SHOWMESSAGE": [
+    {
+      "Primary": {
+        "XPath": "//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'show message')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//*[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'show message')]/input"
+      }
+    }
+  ],
+  "YOURMESSAGE": [
+    {
+      "Primary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'your message')]/.."
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//*[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'your message')]"
+      }
+    }
+  ]
+}

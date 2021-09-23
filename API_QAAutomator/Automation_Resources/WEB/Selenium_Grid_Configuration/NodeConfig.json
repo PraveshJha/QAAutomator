@@ -1,0 +1,27 @@
+{
+  "capabilities": [
+    {
+      "browserName": "chrome",
+      "maxInstances": "5",
+      "seleniumProtocol": "WebDriver"
+    },
+    {
+      "browserName": "firefox",
+      "maxInstances": "5",
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "maxSession": "5",
+  "port": "5555",
+  "browserTimeout": 120,
+  "cleanUpCycle": 5000,
+  "timeout": 120,
+  "debug": false,
+  "sessionTimeout": 1800,
+  "hub": "http://DESKTOP-I3AQR17:4445",
+  "role": "node",
+  "unregisterIfStillDownAfter": 60000,
+  "nodePolling": 5000,
+  "register": true
+}

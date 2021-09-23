@@ -1,0 +1,18 @@
+{
+  "EmailOption": "NO",
+  "FormEmailAddress": "",
+  "FEmailPassword": "",
+  "ReceiverEmailAddress": "",
+  "TestSuite": [
+    {
+      "Module": "Module2",
+      "TestID": "TC01",
+      "TestCaseName": "Module 2 TC01"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC01",
+      "TestCaseName": "Modile 01 TC03"
+    }
+  ]
+}
