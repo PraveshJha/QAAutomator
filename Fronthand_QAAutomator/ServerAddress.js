@@ -1,3 +1,3 @@
 window.ENV = {
-     "APIURL": "https://apiqaautomator.herokuapp.com/"
+     "APIURL": "http://localhost:4001/api/"
  }

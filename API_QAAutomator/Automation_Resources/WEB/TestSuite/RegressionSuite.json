@@ -23,6 +23,11 @@
       "Module": "Module 3",
       "TestID": "TC01",
       "TestCaseName": "Modile 01 TC03"
+    },
+    {
+      "Module": "Sal",
+      "TestID": "TC01",
+      "TestCaseName": "QA"
     }
   ]
 }
