@@ -2,7 +2,7 @@
   "DefaultEnvironment": "QA",
   "DefaultBrowser": "CHROME",
   "DashboardHistoryCount": "50",
-  "DashboardTotalDayCount": "100",
+  "DashboardTotalDayCount": "50",
   "HUBMachineName": "DESKTOP-I3AQR17",
   "HUBPort": "4445",
   "ReportingHeaderName": "QA Automator",

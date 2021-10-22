@@ -1,9 +1,9 @@
 {
   "EXECUTIONSETUP": {
-    "DefaultEnvironment": "",
-    "DashboardHistoryCount": "30",
-    "DashboardTotalDayCount": "30",
-    "ExecutionTimeGrpahIn": ""
+    "DefaultEnvironment": "QA",
+    "DashboardHistoryCount": "5",
+    "DashboardTotalDayCount": "10",
+    "ExecutionTimeGrpahIn": "Seconds"
   },
   "REPORTINGSETUP": {
     "ReportingHeaderName": "QA Automator",
@@ -11,12 +11,32 @@
     "SubHeaderColorCode": "#E5E8E8"
   },
   "EMAILSETUP": {
-    "SenderEmail": "senderemail@test.com",
+    "SenderEmail": "sendernew@test.com",
     "SenderPassword": "Testing",
-    "ReceiverEmail": "recieveremail@test.com"
+    "ReceiverEmail": "Pravesh28@gmail.com"
   },
   "ENVIRONMENTSETUP": {
+    "QA": {
+      "baseURL": "https://api.aircall.io/v1"
+    },
+    "UAT": {
+      "baseURL": "https://api.aircall.io/v2"
+    }
   },
-  "HTTPHEADER": {},
-  "Authorization": []
+  "HTTPHEADER": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "User-Agent": "QAAutomator",
+    "Content-Type": "application/json",
+    "Authorization": "Basic ZGU3NmEzMDE1MWVmYjU0M2YxODYxYWVmYzU5M2NjZTM6YzE3ZTljZDQzMDgxMWI4ZGE3NjI1MDcwMzA0MzIzYWM="
+  },
+  "Authorization": [
+    {
+      "id": 1,
+      "key": "lohin",
+      "username": "a",
+      "password": "a"
+    }
+  ]
 }

@@ -10,14 +10,16 @@
       "login": "Id||login1",
       "login1": "",
       "LoginLink": "",
-      "email": ""
+      "email": "",
+      "//input[@id='qa']": ""
     },
     "Name": {
       "username": "",
       "password": "",
       "username1": "",
       "q": "",
-      "qgsavsdhdfnggf,gfm": ""
+      "qgsavsdhdfnggf,gfm": "",
+      "q1": "Name||q"
     },
     "ClassName": {},
     "XPath": {
@@ -73,7 +75,8 @@
       "//*[not(self::script) and contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'username')]/following::input": "",
       "//*[not(self::script) and contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'password')]/following::input": "",
       "//*[not(self::script) and contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'email')]/following::input": "",
-      "//ul[@class='nav navbar-nav']/li[1]": ""
+      "//ul[@class='nav navbar-nav']/li[1]": "",
+      "//*": ""
     },
     "LinkText": {},
     "PartialLinkText": {

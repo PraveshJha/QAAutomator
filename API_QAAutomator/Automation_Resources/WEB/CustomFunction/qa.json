@@ -1,0 +1,15 @@
+{
+  "Objective": "login1",
+  "Parameter": "NA",
+  "qa": {
+    "1": {
+      "teststepid": 1,
+      "stepdescription": "Add Test Step 1 description",
+      "action": "LaunchApplication",
+      "locator": "",
+      "locatorproperty": "",
+      "value": "c.ApplicationURL",
+      "exitIfFail": "Y"
+    }
+  }
+}

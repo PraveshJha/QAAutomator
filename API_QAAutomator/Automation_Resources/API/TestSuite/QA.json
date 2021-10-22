@@ -1,0 +1,23 @@
+{
+  "EmailOption": "NO",
+  "FormEmailAddress": "",
+  "FEmailPassword": "",
+  "ReceiverEmailAddress": "",
+  "TestSuite": [
+    {
+      "Module": "Contact",
+      "TestID": "23",
+      "TestCaseName": "QA"
+    },
+    {
+      "Module": "Contact",
+      "TestID": "ID-001",
+      "TestCaseName": "1FetchCustomerCheckwithInvalidDataType"
+    },
+    {
+      "Module": "Contact",
+      "TestID": "ID-002",
+      "TestCaseName": "fetchCustomerwithInvalidPhone"
+    }
+  ]
+}

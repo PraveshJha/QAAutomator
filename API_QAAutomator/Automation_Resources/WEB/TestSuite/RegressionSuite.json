@@ -12,7 +12,7 @@
     {
       "Module": "Module2",
       "TestID": "TC01",
-      "TestCaseName": "Module 2 TC01"
+      "TestCaseName": "Modile 01 TC01"
     },
     {
       "Module": "Module2",
@@ -25,9 +25,69 @@
       "TestCaseName": "Modile 01 TC03"
     },
     {
-      "Module": "Sal",
-      "TestID": "TC01",
+      "Module": "Module 4",
+      "TestID": "TC09",
+      "TestCaseName": "This is Sample Test Case 09"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-01",
+      "TestCaseName": "Test"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC02",
       "TestCaseName": "QA"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC02",
+      "TestCaseName": "This is Sample Test Case"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-02",
+      "TestCaseName": "This is new test case"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-02",
+      "TestCaseName": "This is Sample Test Case"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-03",
+      "TestCaseName": "Test"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-04",
+      "TestCaseName": "Just Test"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-05",
+      "TestCaseName": "This is Sample Test Case"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-06",
+      "TestCaseName": "This is Sample Test Case"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-07",
+      "TestCaseName": "This is Sample Test Case"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-01",
+      "TestCaseName": "This is Sample Test Case"
+    },
+    {
+      "Module": "Module 3",
+      "TestID": "TC-01",
+      "TestCaseName": "This is Sample Test Case"
     }
   ]
 }

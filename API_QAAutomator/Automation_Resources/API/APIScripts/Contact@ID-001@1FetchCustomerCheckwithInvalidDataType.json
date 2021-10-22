@@ -1,0 +1,42 @@
+{
+  "API": "baseURL",
+  "relativeURL": "/contacts/search",
+  "HttpMethod": "GET",
+  "HttpHeader": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "User-Agent": "QAAutomator",
+    "Content-Type": "application/json",
+    "Authorization": "Basic ZGU3NmEzMDE1MWVmYjU0M2YxODYxYWVmYzU5M2NjZTM6YzE3ZTljZDQzMDgxMWI4ZGE3NjI1MDcwMzA0MzIzYWM="
+  },
+  "Body": {
+    "1": {
+      "order": "asc",
+      "order_by": "created_at",
+      "phone_number": null
+    },
+    "2": {
+      "order": "asc",
+      "order_by": "created_at",
+      "phone_number": 1234567
+    }
+  },
+  "PostVariable": {
+    "1": {
+      "totalResults": "ResponseBody[meta][count]",
+      "id": "ResponseBody[contacts][0][id]"
+    },
+    "2": {}
+  },
+  "Assertion": {
+    "1": {
+      "ResponseCode": "EqualTo||200",
+      "ResponseBody[meta][count]": "EqualTo||20"
+    },
+    "2": {
+      "ResponseCode": "EqualTo||200"
+    }
+  },
+  "APIComponent": "Contact"
+}

@@ -6,5 +6,10 @@
   {
     "ApplicationURL": "https://www.seleniumeasy.com/test/",
     "Environment": "QA"
+  },
+  {
+    "ApplicationURL": "https://www.seleniumeasy.com/test/",
+    "Test": "QA",
+    "Environment": "Test1"
   }
 ]

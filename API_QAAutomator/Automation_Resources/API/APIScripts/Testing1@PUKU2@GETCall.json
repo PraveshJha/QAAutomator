@@ -1,0 +1,27 @@
+{
+  "API": "baseURL",
+  "relativeURL": "/public-api/users",
+  "HttpMethod": "POST",
+  "HttpHeader": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "User-Agent": "QAAutomator",
+    "Content-Type": "application/json",
+    "Authorization": "Basic ${{PUKU01.Autherization}}"
+  },
+  "Body": {
+    "1": {
+      "id": "Basic ${{ID-001.Autherization}}"
+    }
+  },
+  "PostVariable": {
+    "1": {}
+  },
+  "Assertion": {
+    "1": {
+      "ResponseCode": "EqualTo||500"
+    }
+  },
+  "APIComponent": "Testing"
+}
