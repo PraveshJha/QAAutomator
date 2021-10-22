@@ -22,9 +22,9 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 
 3.	Create Virtual directory from Default Web Site, add alias name and select physical path 'C:\QAAutomator\API_QAAutomator\Automation_ResourcesResources'
     
-    ![image](https://user-images.githubusercontent.com/26107997/138401418-c5153b55-d2ae-451e-88fe-446dff33c0d9.png)
+    ![image](https://user-images.githubusercontent.com/26107997/138401930-b459b1ab-90da-4eb0-a602-af7dbcf5eee9.png)
 
-4.	browser the newly created virutal directory and note down URL (http://localhost:8009/virtualPathQAAutomator/)
+4.	browse the newly created virutal directory and note down URL (http://localhost:8009/virtualPathQAAutomator/)
 6.	Open Web.config file from C:\QAAutomator\API_QAAutomator\.
 7.	Update ReportPublishURL key with value (Web server URL)
 
