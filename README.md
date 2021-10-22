@@ -26,7 +26,7 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 
 4.	Browse the newly created virutal directory and note down URL (http://localhost:8009/virtualPathQAAutomator/)
 5.	Open appsettings.json file from C:\QAAutomator\API_QAAutomator\.
-6.	Update QAAutomatorResourcesPath ="C:\QAAutomator\API_QAAutomator\Automation_Resources\" and virtualRepositoryPath ="http://localhost:8009/virtualPathQAAutomator/"
+6.	Update QAAutomatorResourcesPath ="C:\\QAAutomator\\API_QAAutomator\\Automation_Resources\\" and virtualRepositoryPath ="http://localhost:8009/virtualPathQAAutomator/"
   
   ![image](https://user-images.githubusercontent.com/26107997/138402963-6cf92562-a987-4ab6-88d0-b2e4e010b1f3.png)
   
