@@ -41,9 +41,9 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 
 9.	Browse QAAutomatorAPI application and note down URL e.g. (http://MachineIPAdrress:49658/ or http://localhost:49658/)
 10.	Open ServerAddress.js file from C:\QAAutomator\Fronthand_QAAutomator\ folder.
-11.	Update APIURL (http://MachineIPAdrress:49658/api/ or http://localhost:49658/api/), base URL will be same as Step 9 URL.
+11.	Update APIURL (http://MachineIPAdrress:49658/ or http://localhost:49658/), base URL will be same as Step 9 URL.
 
-      ![image](https://user-images.githubusercontent.com/26107997/134380929-8b187120-8415-4ed9-8550-566642ea23ca.png)
+      ![image](https://user-images.githubusercontent.com/26107997/138408923-cac41e39-54d2-4cf1-a4dd-db30dfc6ee31.png)
 
 13.	Add new site from IIS (sitename=QAAutomator, Physicalpath= C:\QAAutomator\Fronthand_QAAutomator , Port Number =3001)
     
