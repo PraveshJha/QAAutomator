@@ -5,8 +5,8 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 **Prerequisite Software**
 1.	Node JS
 (Reference: https://nodejs.org/en/download/)
-2.	Web server for Chrome Extension
-(Reference: https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)
+2.	ASP.NET Core SDK
+(Reference: https://dotnet.microsoft.com/download)
 3.	URL Rewrite Extension
 (Reference: https://www.iis.net/downloads/microsoft/url-rewrite)
 4.	IIS option be enabled with given below configuration
