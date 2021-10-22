@@ -5,8 +5,8 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 **Prerequisite Software**
 1.	Node JS
 (Reference: https://nodejs.org/en/download/)
-2.	ASP.NET Core SDK
-(Reference: https://dotnet.microsoft.com/download)
+2.	Install the ASP.NET Core Module/Hosting Bundle
+(Reference: https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-5.0)
 3.	URL Rewrite Extension
 (Reference: https://www.iis.net/downloads/microsoft/url-rewrite)
 4.	IIS option be enabled with given below configuration
