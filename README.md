@@ -20,8 +20,11 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
 
     ![image](https://user-images.githubusercontent.com/26107997/134376908-c77b0431-d6df-450c-ad43-5951b18ca96a.png)
 
-3.	Launch Web server for chrome.
-4.	Select Path (C:\QAAutomator\API_QAAutomator\Automation_Resources) from 'Web Server Chrome' using choose Folder option
+3.	Create Virtual directory from Default Web Site, add alias name and select physical path 'C:\QAAutomator\API_QAAutomator\Automation_ResourcesResources'
+    
+    ![image](https://user-images.githubusercontent.com/26107997/138401418-c5153b55-d2ae-451e-88fe-446dff33c0d9.png)
+
+5.	Select Path (C:\QAAutomator\API_QAAutomator\Automation_Resources) from 'Web Server Chrome' using choose Folder option
 
     ![image](https://user-images.githubusercontent.com/26107997/134378498-c2797655-6d3a-4dfb-a92c-1ccd6f539e09.png)
 
