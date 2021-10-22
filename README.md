@@ -24,11 +24,7 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
     
     ![image](https://user-images.githubusercontent.com/26107997/138401418-c5153b55-d2ae-451e-88fe-446dff33c0d9.png)
 
-5.	Select Path (C:\QAAutomator\API_QAAutomator\Automation_Resources) from 'Web Server Chrome' using choose Folder option
-
-    ![image](https://user-images.githubusercontent.com/26107997/134378498-c2797655-6d3a-4dfb-a92c-1ccd6f539e09.png)
-
-5.	Note down Web Server URL (IP)
+4.	browser the newly created virutal directory and note down URL (http://localhost:8009/virtualPathQAAutomator/)
 6.	Open Web.config file from C:\QAAutomator\API_QAAutomator\.
 7.	Update ReportPublishURL key with value (Web server URL)
 
