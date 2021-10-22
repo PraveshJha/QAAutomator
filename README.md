@@ -24,11 +24,11 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
     
     ![image](https://user-images.githubusercontent.com/26107997/138401930-b459b1ab-90da-4eb0-a602-af7dbcf5eee9.png)
 
-4.	browse the newly created virutal directory and note down URL (http://localhost:8009/virtualPathQAAutomator/)
-6.	Open Web.config file from C:\QAAutomator\API_QAAutomator\.
-7.	Update ReportPublishURL key with value (Web server URL)
-
-    ![image](https://user-images.githubusercontent.com/26107997/134378990-edd26fef-ea23-495b-8cc8-10cc50507634.png)
+4.	Browse the newly created virutal directory and note down URL (http://localhost:8009/virtualPathQAAutomator/)
+6.	Open appsettings.json file from C:\QAAutomator\API_QAAutomator\.
+7.	Update QAAutomatorResourcesPath ="C:\QAAutomator\API_QAAutomator\Automation_Resources\" and virtualRepositoryPath ="http://localhost:8009/virtualPathQAAutomator/"
+  
+  ![image](https://user-images.githubusercontent.com/26107997/138402963-6cf92562-a987-4ab6-88d0-b2e4e010b1f3.png)
 
 8.	Add new Site in IIS (select any name QAAutomatorAPI, any port number 49658 and select set Physical path =C:\QAAutomator\API_QAAutomator
 
