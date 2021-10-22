@@ -25,14 +25,19 @@ QA Automator is complete testing solution for Web and API testing. It is codeles
     ![image](https://user-images.githubusercontent.com/26107997/138401930-b459b1ab-90da-4eb0-a602-af7dbcf5eee9.png)
 
 4.	Browse the newly created virutal directory and note down URL (http://localhost:8009/virtualPathQAAutomator/)
-6.	Open appsettings.json file from C:\QAAutomator\API_QAAutomator\.
-7.	Update QAAutomatorResourcesPath ="C:\QAAutomator\API_QAAutomator\Automation_Resources\" and virtualRepositoryPath ="http://localhost:8009/virtualPathQAAutomator/"
+5.	Open appsettings.json file from C:\QAAutomator\API_QAAutomator\.
+6.	Update QAAutomatorResourcesPath ="C:\QAAutomator\API_QAAutomator\Automation_Resources\" and virtualRepositoryPath ="http://localhost:8009/virtualPathQAAutomator/"
   
   ![image](https://user-images.githubusercontent.com/26107997/138402963-6cf92562-a987-4ab6-88d0-b2e4e010b1f3.png)
+  
+ 7. Create new Application Pool , add any name API_QAAutomator and select No Managed Code in .NET CLR Version
+ 
+ ![image](https://user-images.githubusercontent.com/26107997/138407962-d702b0c5-da44-4fff-a583-f096cf0f884a.png)
 
-8.	Add new Site in IIS (select any name QAAutomatorAPI, any port number 49658 and select set Physical path =C:\QAAutomator\API_QAAutomator
 
-    ![image](https://user-images.githubusercontent.com/26107997/134380011-4a01d156-ce54-4d71-b1f7-fde8bb6f03d2.png)
+8.	Add new Site in IIS (select any name QAAutomatorAPI, select Application pool 'API_QAAUTOMATOR' add any port number 49658 and set Physical path  =C:\QAAutomator\API_QAAutomator
+
+  ![image](https://user-images.githubusercontent.com/26107997/138408476-c278a014-60ea-46ec-a551-dc7caf859d0d.png)
 
 9.	Browse QAAutomatorAPI application and note down URL e.g. (http://MachineIPAdrress:49658/ or http://localhost:49658/)
 10.	Open ServerAddress.js file from C:\QAAutomator\Fronthand_QAAutomator\ folder.
