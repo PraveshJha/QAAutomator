@@ -29,7 +29,7 @@
     "Connection": "keep-alive",
     "User-Agent": "QAAutomator",
     "Content-Type": "application/json",
-    "Authorization": "Basic ZGU3NmEzMDE1MWVmYjU0M2YxODYxYWVmYzU5M2NjZTM6YzE3ZTljZDQzMDgxMWI4ZGE3NjI1MDcwMzA0MzIzYWM="
+    "Authorization": "put your auth key"
   },
   "Authorization": [
     {
