@@ -10,5 +10,21 @@
   "SubHeaderColorCode": "#E5E8E8",
   "SenderEmail": "sender@test.com",
   "SenderPassword": "Testing",
-  "ReceiverEmail": "Pravesh28@gmail.com"
+  "ReceiverEmail": "Pravesh28@gmail.com",
+  "defaultemulation": "Web",
+  "defaultscreenName": "DEFAULT",
+  "Emulation": {
+    "Web": {
+      "DEFAULT": {
+        "WIDTH": "1900",
+        "HIGHT": "800"
+      }
+    },
+    "Mobile": {
+      "APPLE10": {
+        "WIDTH": "375",
+        "HIGHT": "812"
+      }
+    }
+  }
 }

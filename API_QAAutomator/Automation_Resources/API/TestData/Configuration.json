@@ -17,10 +17,7 @@
   },
   "ENVIRONMENTSETUP": {
     "QA": {
-      "baseURL": "https://api.aircall.io/v1"
-    },
-    "UAT": {
-      "baseURL": "https://api.aircall.io/v2"
+      "baseURL": "https://fakerestapi.azurewebsites.net/api/v1"
     }
   },
   "HTTPHEADER": {
@@ -28,15 +25,14 @@
     "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "User-Agent": "QAAutomator",
-    "Content-Type": "application/json",
-    "Authorization": "put your auth key"
+    "Content-Type": "application/json"
   },
   "Authorization": [
     {
       "id": 1,
-      "key": "lohin",
-      "username": "a",
-      "password": "a"
+      "key": "Login",
+      "username": "UserId",
+      "password": "Password"
     }
   ]
 }

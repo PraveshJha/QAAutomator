@@ -1,0 +1,22 @@
+[
+  {
+    "1": {
+      "teststepid": 1,
+      "stepdescription": "Launch application",
+      "action": "LaunchApplication",
+      "locator": "",
+      "locatorproperty": "",
+      "value": "c.ApplicationURL",
+      "exitIfFail": "Y"
+    },
+    "2": {
+      "teststepid": 2,
+      "stepdescription": "Click on Demo Link",
+      "action": "Click",
+      "locator": "partiallinktext",
+      "locatorproperty": "Demo Home",
+      "value": "",
+      "exitIfFail": "Y"
+    }
+  }
+]

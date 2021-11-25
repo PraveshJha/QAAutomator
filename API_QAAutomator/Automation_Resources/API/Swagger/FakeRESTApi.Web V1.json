@@ -1,0 +1,14 @@
+{
+  "/api/v1/Activities": "/api/v1/Activities",
+  "/api/v1/Activities/{id}": "/api/v1/Activities/{id}",
+  "/api/v1/Authors": "/api/v1/Authors",
+  "/api/v1/Authors/authors/books/{idBook}": "/api/v1/Authors/authors/books/{idBook}",
+  "/api/v1/Authors/{id}": "/api/v1/Authors/{id}",
+  "/api/v1/Books": "/api/v1/Books",
+  "/api/v1/Books/{id}": "/api/v1/Books/{id}",
+  "/api/v1/CoverPhotos": "/api/v1/CoverPhotos",
+  "/api/v1/CoverPhotos/books/covers/{idBook}": "/api/v1/CoverPhotos/books/covers/{idBook}",
+  "/api/v1/CoverPhotos/{id}": "/api/v1/CoverPhotos/{id}",
+  "/api/v1/Users": "/api/v1/Users",
+  "/api/v1/Users/{id}": "/api/v1/Users/{id}"
+}

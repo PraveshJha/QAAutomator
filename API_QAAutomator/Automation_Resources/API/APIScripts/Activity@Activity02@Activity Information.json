@@ -1,0 +1,31 @@
+{
+  "API": "baseURL",
+  "relativeURL": "/Activities/${{Activity01.id}}",
+  "HttpMethod": "GET",
+  "HttpHeader": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "User-Agent": "QAAutomator",
+    "Content-Type": "application/json"
+  },
+  "Body": {
+    "1": ""
+  },
+  "PostVariable": {
+    "1": {}
+  },
+  "Assertion": {
+    "1": {
+      "ResponseCode": "EqualTo||200"
+    }
+  },
+  "APIComponent": "Activity",
+  "AuthorizationKey": "",
+  "MockData": {
+    "isMock": false,
+    "ResponseCode": 200,
+    "ResponseHeader": "{}",
+    "ResponseBody": "{}"
+  }
+}

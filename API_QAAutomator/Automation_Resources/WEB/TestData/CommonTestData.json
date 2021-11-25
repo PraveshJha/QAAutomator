@@ -5,11 +5,11 @@
   },
   {
     "ApplicationURL": "https://www.seleniumeasy.com/test/",
-    "Environment": "QA"
-  },
-  {
-    "ApplicationURL": "https://www.seleniumeasy.com/test/",
     "Test": "QA",
     "Environment": "Test1"
+  },
+  {
+    "ApplicationURL": "https://demo.seleniumeasy.com/",
+    "Environment": "QA"
   }
 ]

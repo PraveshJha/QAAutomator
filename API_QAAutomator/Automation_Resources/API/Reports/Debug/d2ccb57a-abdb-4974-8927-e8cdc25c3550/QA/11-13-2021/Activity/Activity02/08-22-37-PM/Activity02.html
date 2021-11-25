@@ -1,0 +1,65 @@
+<html>
+<style>
+.subheading1{BORDER-RIGHT: #000000 1px solid;BACKGROUND-COLOR: #1E90FF;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 13pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #FFFFFF;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel,helvetica, sans-serif;HEIGHT: 10px;}
+.subheading2{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 2px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 2px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel,helvetica, sans-serif;HEIGHT: 10px;BACKGROUND-COLOR: #E5E8E8;Color: #000000}
+.tdborder_1{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel, helvetica,  sans-serif;HEIGHT: 10px}
+.tdborder_1_Pass{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #00ff00;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel,  helvetica, sans-serif;HEIGHT: 10px}
+.tdborder_1_Fail{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid; COLOR: #ff0000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel, helvetica, sans-serif;HEIGHT: 10px}
+sup{vertical-align: super;font-size: smaller;}
+</style>
+<head><title>QA Automator Test Result</title></head>
+<body>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%; margin-left:10px;'><td class='subheading1' colspan=5 align=center><p style='font-size:1.8em'><body link='#00ff00'>QA Automator Test Case Report</body></td><tr></tr></table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%; margin-left:10px;'>
+<tr> <td class='subheading2' width ='15%' align='center'><b>Component</b></td> <td class='subheading2'  width ='10%' align='center'><b>Test Id</b></td> <td class='subheading2'  width ='20%' align='center'><b>Test Name</b></td> <td class='subheading2' width ='10%' align='center'><b>Environment</b></td> <td class='subheading2' width ='10%' align='center'><b>Method</b></td> <td class='subheading2' width ='31%' align='center'><b>URI</b></td> </tr>
+<TR> <TD class='tdborder_1'  vAlign=center  align=middle >Activity</TD> <TD class='tdborder_1'  vAlign=center  align=middle >Activity02</TD> <TD class='tdborder_1'  vAlign=center  align=middle >Activity Information</TD> <TD class='tdborder_1'  vAlign=center  align=middle >QA</TD> <TD class='tdborder_1'  vAlign=center  align=middle >GET</TD> <TD class='tdborder_1'  vAlign=center  align=middle >https://fakerestapi.azurewebsites.net/api/v1/Activities/23</TD>
+</table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%; margin-left:10px;'>
+<tr></tr>
+<tr> <td class='subheading2' width ='22%' align='center' ><b>Request Header</b></td> <td class='subheading2'  width ='22%' align='center' ><b>Request Body</b></td> <td class='subheading2'  width ='22%'align='center'><b>Response Header</b></td> <td class='subheading2' width ='22%' align='center' ><b>Response Body</b></td> <td class='subheading2' width ='8%'align='center'><b>Status</b></td> </tr>
+<tr>
+<TD class='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{
+  "Accept": "application/json",<br>
+  "Accept-Encoding": "gzip,<br> deflate,<br> br",<br>
+  "Connection": "keep-alive",<br>
+  "User-Agent": "QAAutomator",<br>
+  "Content-Type": "application/json"
+}</TD>
+<td class ='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{}</td>
+<TD class='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{
+  "Transfer-Encoding": "chunked",<br>
+  "Server": "Kestrel",<br>
+  "api-supported-versions": "1.0",<br>
+  "Date": "Sat,<br> 13 Nov 2021 14:59:37 GMT",<br>
+  "Content-Type": "application/json; charset"
+}</TD>
+<td class ='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{
+  "id": 23,<br>
+  "title": "Activity 23",<br>
+  "dueDate": "2021-11-14T19:29:38.4118891+05:30",<br>
+  "completed": false
+}</td>
+ <td  class ='tdborder_1_Pass' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;' >Pass</td>
+</tr>
+</table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%;  margin-left:10px;'>
+<TR></TR>
+<TR>
+<TD class='subheading2' width ='24%'align='middle'><b>Data Set#</b></TD>
+<TD class='subheading2' width ='24%'align='middle'><b>Response Code</b></TD>
+<TD class='subheading2' width ='24%' align='middle'><b>Execution Start date & time</b></TD>
+<TD class='subheading2' width ='24%' align='middle'><b>Test run duration (Milliseconds)</b></TD>
+</TR>
+<TR>
+<TD class='tdborder_1' vAlign=center  align=middle >1</TD>
+<TD class='tdborder_1' vAlign=center  align=middle >200</TD>
+<TD class='tdborder_1' vAlign=center  align=middle >13-11-2021 20:22:38</TD>
+<TD class='tdborder_1' vAlign=center  align=middle >776</TD>
+</TR>
+</table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%;  margin-left:10px;'>
+<TR></TR>
+<TR>
+</TR>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+</table>

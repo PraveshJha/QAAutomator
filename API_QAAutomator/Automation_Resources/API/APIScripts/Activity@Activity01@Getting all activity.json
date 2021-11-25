@@ -1,0 +1,33 @@
+{
+  "API": "baseURL",
+  "relativeURL": "/Activities",
+  "HttpMethod": "GET",
+  "HttpHeader": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "User-Agent": "QAAutomator",
+    "Content-Type": "application/json"
+  },
+  "Body": {
+    "1": ""
+  },
+  "PostVariable": {
+    "1": {
+      "id": "ResponseBody[0][id]"
+    }
+  },
+  "Assertion": {
+    "1": {
+      "ResponseCode": "EqualTo||200"
+    }
+  },
+  "APIComponent": "Activity",
+  "AuthorizationKey": "",
+  "MockData": {
+    "isMock": true,
+    "ResponseCode": 200,
+    "ResponseHeader": "{\n\"MyInout\":2\n}",
+    "ResponseBody": "[\n  {\n    \"id\": 24,\n    \"title\": \"Activity 21\",\n    \"dueDate\": \"2021-11-13T10:45:06.7560523+00:00\",\n    \"completed\": false\n  }\n]"
+  }
+}
