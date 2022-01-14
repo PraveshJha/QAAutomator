@@ -78,7 +78,8 @@
       "//ul[@class='nav navbar-nav']/li[1]": "",
       "//*": "",
       "//li/a": "",
-      "//a[text()='Simple Form Demo']": ""
+      "//a[text()='Simple Form Demo']": "",
+      "//a[contains(text(),'Demo Home')]": ""
     },
     "LinkText": {},
     "PartialLinkText": {

@@ -17,7 +17,7 @@
   },
   "ENVIRONMENTSETUP": {
     "QA": {
-      "baseURL": "https://fakerestapi.azurewebsites.net/api/v1"
+      "baseURL": "https://fakerestapi.azurewebsites.net"
     }
   },
   "HTTPHEADER": {
