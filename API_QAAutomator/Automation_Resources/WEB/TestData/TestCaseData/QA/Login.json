@@ -1,0 +1,16 @@
+{
+  "GIT-01": [
+    {
+      "1": {
+        "USERNAME": "abcd",
+        "PASSWORD": "q",
+        "MESSAGE": "incorrect username or password"
+      },
+      "2": {
+        "USERNAME": "qa@test",
+        "PASSWORD": "abc",
+        "MESSAGE": "incorrect username or password"
+      }
+    }
+  ]
+}

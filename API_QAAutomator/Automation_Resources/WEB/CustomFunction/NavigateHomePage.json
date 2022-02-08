@@ -1,0 +1,15 @@
+{
+  "Objective": "Objective of this function to Navigate Home Page",
+  "Parameter": "NA",
+  "NavigateHomePage": {
+    "1": {
+      "teststepid": 1,
+      "stepdescription": "Launch Amazon application URL",
+      "action": "LaunchApplication",
+      "locator": "",
+      "locatorproperty": "",
+      "value": "c.ApplicationURL",
+      "exitIfFail": "Y"
+    }
+  }
+}

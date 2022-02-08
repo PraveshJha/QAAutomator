@@ -1,0 +1,68 @@
+<html>
+<style>
+.subheading1{BORDER-RIGHT: #000000 1px solid;BACKGROUND-COLOR: #1E90FF;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 13pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #FFFFFF;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel,helvetica, sans-serif;HEIGHT: 10px;}
+.subheading2{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 2px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 2px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel,helvetica, sans-serif;HEIGHT: 10px;BACKGROUND-COLOR: #E5E8E8;Color: #000000}
+.tdborder_1{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel, helvetica,  sans-serif;HEIGHT: 10px}
+.tdborder_1_Pass{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #00ff00;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel,  helvetica, sans-serif;HEIGHT: 10px}
+.tdborder_1_Fail{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 11pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid; COLOR: #ff0000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Corbel, helvetica, sans-serif;HEIGHT: 10px}
+sup{vertical-align: super;font-size: smaller;}
+</style>
+<head><title>QA Automator Test Result</title></head>
+<body>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%; margin-left:10px;'><td class='subheading1' colspan=5 align=center><p style='font-size:1.8em'><body link='#00ff00'>QA Automator Test Case Report</body></td><tr></tr></table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%; margin-left:10px;'>
+<tr> <td class='subheading2' width ='15%' align='center'><b>Component</b></td> <td class='subheading2'  width ='10%' align='center'><b>Test Id</b></td> <td class='subheading2'  width ='20%' align='center'><b>Test Name</b></td> <td class='subheading2' width ='10%' align='center'><b>Environment</b></td> <td class='subheading2' width ='10%' align='center'><b>Method</b></td> <td class='subheading2' width ='31%' align='center'><b>URI</b></td> </tr>
+<TR> <TD class='tdborder_1'  vAlign=center  align=middle >Books</TD> <TD class='tdborder_1'  vAlign=center  align=middle >BO-8</TD> <TD class='tdborder_1'  vAlign=center  align=middle >To Test Unauthorized functionality</TD> <TD class='tdborder_1'  vAlign=center  align=middle >QA</TD> <TD class='tdborder_1'  vAlign=center  align=middle >GET</TD> <TD class='tdborder_1'  vAlign=center  align=middle >https://fakerestapi.azurewebsites.net/api/v1/Books/8</TD>
+</table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%; margin-left:10px;'>
+<tr></tr>
+<tr> <td class='subheading2' width ='22%' align='center' ><b>Request Header</b></td> <td class='subheading2'  width ='22%' align='center' ><b>Request Body</b></td> <td class='subheading2'  width ='22%'align='center'><b>Response Header</b></td> <td class='subheading2' width ='22%' align='center' ><b>Response Body</b></td> <td class='subheading2' width ='8%'align='center'><b>Status</b></td> </tr>
+<tr>
+<TD class='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{
+  "Accept": "application/json",<br>
+  "Accept-Encoding": "gzip,<br> deflate,<br> br",<br>
+  "Connection": "keep-alive",<br>
+  "User-Agent": "QAAutomator",<br>
+  "Content-Type": "application/json",<br>
+  "Authorization": "Basic VXNlcklkOlBhc3N3b3Jk"
+}</TD>
+<td class ='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{}</td>
+<TD class='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{
+  "Transfer-Encoding": "chunked",<br>
+  "Server": "Kestrel",<br>
+  "api-supported-versions": "1.0",<br>
+  "Date": "Wed,<br> 01 Dec 2021 16:17:22 GMT",<br>
+  "Content-Type": "application/json; charset"
+}</TD>
+<td class ='tdborder_1' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;'>{
+  "id": 8,<br>
+  "title": "Book 8",<br>
+  "description": "Sanctus erat et eos soluta at lorem eos lorem rebum. Dolor no sed ipsum lobortis eu sanctus aliquyam dolor dolor at. Aliquyam sadipscing sit accumsan sed et ea euismod ut sanctus ad sea aliquyam illum sed clita. Et eirmod ea blandit ut sanctus stet sed dolor clita stet et facilisis diam dolor zzril ipsum ut. Invidunt sit et justo possim tation. Sit ad illum sed eos. Sadipscing labore amet sed gubergren hendrerit sed ea nonumy adipiscing. Kasd ipsum sed stet erat sit. Dolor ea kasd iriure sit ad consequat id kasd ut et. Feugiat qui eirmod quod sed amet dolore tempor ullamcorper. Tempor ea sit esse gubergren sea sit amet et et. Elitr elit sed nulla luptatum tempor eu lobortis amet adipiscing rebum volutpat ut ipsum sed. Consetetur dolores justo ipsum rebum est in nostrud amet autem et ipsum. No amet sit lorem est invidunt vero feugiat et. Sea et lorem et ipsum vero dolores gubergren dolor justo tempor. Amet ea justo labore eirmod nonumy duis eirmod dolores facilisis. Erat vulputate amet sit duo dolores dolores dolores lorem erat facilisi kasd consequat rebum. In possim dolore justo in ut at invidunt iriure invidunt erat accusam magna et lorem dolores nibh sit invidunt. Dolore erat clita amet voluptua enim sit stet stet diam lorem ex accusam eos magna.\n",<br>
+  "pageCount": 800,<br>
+  "excerpt": "Nostrud lorem clita lorem ut sanctus no et rebum. Blandit lorem sit et. Ipsum nostrud lorem sit ut aliquyam ipsum sea labore. Et tempor dolore nostrud sit no lorem aliquyam aliquyam stet mazim eos kasd tincidunt vero dolore sed. Autem nobis consetetur dolores diam diam nonumy voluptua takimata duo ea sed lorem eum augue elitr luptatum lorem. Sadipscing feugiat diam delenit sea dolore dolore sed et aliquyam takimata et sanctus sit. Consetetur enim dolor lorem voluptua at takimata vero accusam invidunt autem nonumy vel kasd consetetur vero voluptua. Consetetur invidunt commodo ut invidunt. Labore at et stet. Dolores sit voluptua. Dolor accusam aliquyam diam kasd kasd aliquip dignissim lobortis dolore sed ullamcorper sadipscing. No dolore sanctus aliquyam invidunt. Molestie magna aliquam nonummy. Odio dolores dolor. Sed est nonumy facilisi illum invidunt sea rebum molestie et vel. Ad diam magna facilisis amet sed et. Dolore sed invidunt gubergren. Nonumy facilisi autem duo vero justo diam takimata amet nibh ipsum in ipsum nonummy ea. Ipsum in ipsum tation.\nIpsum lorem eirmod lorem erat no. Stet tempor et erat sadipscing te eum. Amet gubergren exerci dolores justo est amet imperdiet ut sea. Tempor aliquyam ad blandit et ut aliquyam eos accumsan sadipscing aliquyam dolor sadipscing vel. Dolore takimata invidunt sanctus in et sanctus rebum placerat magna dignissim sadipscing amet aliquyam dolor consetetur ipsum. Zzril voluptua in lorem diam doming sadipscing no iusto tempor. Et sea dolor volutpat consequat et accusam kasd facilisi ipsum ea. Vel accusam assum tempor elitr augue eros accusam ipsum kasd et sed et. Dolore in nulla ea commodo aliquyam duo sit laoreet et dolor facer delenit. Sit praesent doming labore dolores ad. Diam duis sea dolor eleifend clita et qui est labore vero et aliquyam facilisi et dolor takimata. Lorem no est magna. Justo et labore duo dolor dolore duo volutpat dolore voluptua. Lorem dolor amet et ipsum dolores invidunt amet volutpat ut diam vulputate labore amet duo rebum. Labore sit et et diam justo velit option et sadipscing stet eirmod dolor vel at sea lorem. Erat sit diam ipsum invidunt erat.\nSit sed nibh amet duo est sit stet velit. Sadipscing gubergren elitr magna sed. Ex vero nonumy takimata magna labore lorem. Ut erat nonumy clita ipsum dolore no accusam sadipscing ipsum vero delenit justo ut. Sed tempor nibh lorem stet kasd justo sed tincidunt sea est magna dolore nonumy volutpat vel clita hendrerit stet. Liber dolores sanctus rebum est. Accusam dolores sanctus dolor. Lorem et amet ipsum et vero. Clita ut eum dolor. Lorem duis nibh commodo dolore sea eos consetetur accusam tincidunt. Vulputate at aliquyam stet sed sea consetetur voluptua vero.\nNam ipsum magna elitr ea vero sed dolor sed justo justo in ipsum dignissim. Facilisis vulputate no luptatum ipsum no sadipscing sit clita voluptua. Clita takimata kasd et. Sit dolore tation takimata sadipscing dolores vero et amet et ea. Consectetuer enim est vero in diam ex tempor dolor suscipit dolore nisl ipsum ut justo tempor. Stet accusam aliquyam. At elitr takimata veniam augue dolores gubergren ut soluta esse. Sed stet justo rebum amet stet dolor sit gubergren sanctus clita esse. Sea hendrerit takimata ipsum justo amet ipsum vel justo exerci. Sed lorem ut rebum. Dolor et amet eos sanctus. Dolor amet nonumy dignissim stet dolor ipsum ipsum ipsum volutpat aliquip dolores lorem invidunt nostrud nibh zzril invidunt.\nNo justo ea lorem. Kasd est et tempor invidunt amet. Et et et nibh nostrud lorem ipsum sadipscing elitr et. Est vulputate magna aliquyam kasd aliquyam clita iusto vero at erat et luptatum sit invidunt. Sit et et. Clita sit sanctus dolor stet. Dolore et volutpat elit eirmod dignissim sadipscing eos feugiat dolore suscipit magna sed accusam et dolore. Magna est dolores at sed magna magna consectetuer. Est ut ut est sit clita. Dolore dolor eros est consetetur invidunt nostrud eos diam. Eos illum et kasd ipsum takimata aliquyam at amet ipsum lorem lorem sed wisi invidunt ipsum justo rebum. Accusam invidunt dolor in accusam diam at ipsum. At amet veniam dolor et ut labore wisi aliquyam no takimata at est doming. Dolore ut kasd sanctus clita sit amet duo doming enim takimata et et eirmod duo rebum vero.\n",<br>
+  "publishDate": "2021-11-23T21:47:23.1329666+05:30"
+}</td>
+ <td  class ='tdborder_1_Fail' style='max-width: 150px;word-wrap:break-word;vertical-align: text-top;' >Fail</td>
+</tr>
+</table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%;  margin-left:10px;'>
+<TR></TR>
+<TR>
+<TD class='subheading2' width ='24%'align='middle'><b>Data Set#</b></TD>
+<TD class='subheading2' width ='24%'align='middle'><b>Response Code</b></TD>
+<TD class='subheading2' width ='24%' align='middle'><b>Execution Start date & time</b></TD>
+<TD class='subheading2' width ='24%' align='middle'><b>Test run duration (Milliseconds)</b></TD>
+</TR>
+<TR>
+<TD class='tdborder_1' vAlign=center  align=middle >1</TD>
+<TD class='tdborder_1' vAlign=center  align=middle >200</TD>
+<TD class='tdborder_1' vAlign=center  align=middle >01-12-2021 21:47:22</TD>
+<TD class='tdborder_1' vAlign=center  align=middle >684</TD>
+</TR>
+</table>
+<table cellSpacing='0' cellPadding='0' border='0' align='center' style='width:96%;  margin-left:10px;'>
+<TR></TR>
+<TR>
+</TR>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+</table>
