@@ -1,3 +1,3 @@
 window.ENV = {
-     "APIURL": "http://192.168.1.54:4001/"
+     "APIURL": "https://localhost:44389/"
  }
