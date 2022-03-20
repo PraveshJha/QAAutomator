@@ -17,7 +17,8 @@
   },
   "ENVIRONMENTSETUP": {
     "QA": {
-      "baseURL": "https://reqres.in/api"
+      "baseURL": "https://fakerestapi.azurewebsites.net",
+      "testUrl": "https://reqres.in"
     },
     "Test": {
       "baseURL": "https://test.in"
@@ -25,7 +26,6 @@
   },
   "HTTPHEADER": {
     "Accept": "application/json",
-    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "User-Agent": "QAAutomator",
     "Content-Type": "application/json"

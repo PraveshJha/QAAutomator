@@ -1,6 +1,7 @@
 [
   {
-    "ApplicationURL": "https://www.irctc.co.in/nget/train-search",
+    "ApplicationURL": "https://www.google.com/",
+    "": "",
     "Environment": "QA"
   }
 ]

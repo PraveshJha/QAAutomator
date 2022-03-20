@@ -1,0 +1,31 @@
+[
+  {
+    "1": {
+      "teststepid": 1,
+      "stepdescription": "Given I am on Google Home page",
+      "action": "NavigateHomePage",
+      "locator": "",
+      "locatorproperty": "",
+      "value": "",
+      "exitIfFail": "Y"
+    },
+    "2": {
+      "teststepid": 2,
+      "stepdescription": "And I Enter Search",
+      "action": "Type",
+      "locator": "",
+      "locatorproperty": "OR.SEARCH",
+      "value": "t.SEARCH",
+      "exitIfFail": "Y"
+    },
+    "3": {
+      "teststepid": 3,
+      "stepdescription": "And I Click on the timesofindia link",
+      "action": "Click",
+      "locator": "",
+      "locatorproperty": "OR.TIMESOFINDIA",
+      "value": "",
+      "exitIfFail": "Y"
+    }
+  }
+]

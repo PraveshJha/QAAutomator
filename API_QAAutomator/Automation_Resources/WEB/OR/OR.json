@@ -1,16 +1,15 @@
 [
   {
     "Id": {
-      "origin": ""
     },
-    "Name": {},
+    "Name": {
+    },
     "ClassName": {},
     "XPath": {
-      "//button[text()='OK']": "",
-      "//*[@id='origin']/span/input": ""
     },
     "LinkText": {},
-    "PartialLinkText": {},
+    "PartialLinkText": {
+    },
     "TagName": {},
     "CssSelector": {}
   }

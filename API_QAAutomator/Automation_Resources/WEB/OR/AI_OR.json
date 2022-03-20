@@ -46,5 +46,77 @@
         "XPath": "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'+T.MESSAGE+')]"
       }
     }
+  ],
+  "SEARCH": [
+    {
+      "Primary": {
+        "XPath": "//input[@*[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'search')]]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//input[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'search')]"
+      }
+    }
+  ],
+  "TIMESOFINDIA": [
+    {
+      "Primary": {
+        "XPath": "//*[@*[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'timesofindia')]]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'timesofindia')]"
+      }
+    }
+  ],
+  "INPUTFORMS": [
+    {
+      "Primary": {
+        "XPath": "//a[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'input forms')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'input forms')]"
+      }
+    }
+  ],
+  "SIMPLEFORMDEMO": [
+    {
+      "Primary": {
+        "XPath": "//a[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'simple form demo')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'simple form demo')]"
+      }
+    }
+  ],
+  "SHOWMESSAGE": [
+    {
+      "Primary": {
+        "XPath": "//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'show message')]"
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//*[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'show message')]/input"
+      }
+    }
+  ],
+  "YOURMESSAGE": [
+    {
+      "Primary": {
+        "XPath": "//label[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'your message')]/.."
+      }
+    },
+    {
+      "Secondary": {
+        "XPath": "//*[contains(translate(@*, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'your message')]"
+      }
+    }
   ]
 }
